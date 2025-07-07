@@ -16,7 +16,7 @@ Dieses Repository enthält ABAP-Codebeispiele für das SAPPRESS BUch SAP Documen
    Lade das abapGit-Report aus [https://abapgit.org](https://abapgit.org) herunter und installiere es in deinem SAP-System.
 
 2. **Repository als Online-Repo hinzufügen**  
-   - Öffne abapGit im SAP GUI (`/nSABAPGIT`).
+   - Öffne abapGit-Programm im SAP GUI (`SE38 > ZABAPGIT_STANDALONE`).
    - Wähle „Neues Online-Repository“.
    - Gib die URL dieses Git-Repositories an.
 
