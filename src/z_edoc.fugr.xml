@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <INCLUDES>
+    <SOBJ_NAME>LZ_EDOCTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZ_EDOC</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZEDOC_HU_ERROR_NOTIFICATION</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>ZEDOC_HU_ERROR_NOTIFICATION</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IV_EDOC_GUID</PARAMETER>
+       <TYP>EDOC_GUID</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IS_PROCESS_ATTR</PARAMETER>
+       <TYP>EDOC_ATTR_MANAGED_BY_PROCMGR</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>AUTHORIZATION_ERROR</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>UNKNOWN_ERROR</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IV_EDOC_GUID</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>eDocument: GUID</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IS_PROCESS_ATTR</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>eDocument: Attributes of EDOCUMENT managed by Process Manag.</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>AUTHORIZATION_ERROR</PARAMETER>
+       <KIND>X</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>UNKNOWN_ERROR</PARAMETER>
+       <KIND>X</KIND>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
