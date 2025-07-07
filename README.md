@@ -1,6 +1,6 @@
-# sappress_drc
+# SAP Document Reporting and Compliance – Projektplanung, Implementierung, Anwendung
 
-Dieses Repository enthält ABAP-Codebeispiele, die mit abapGit verwaltet werden. Die Beispiele demonstrieren die Implementierung von BAdI-Implementierungen und Funktionsbausteinen im Kontext von SAP Document and Reporting Compliance (DRC).
+Dieses Repository enthält ABAP-Codebeispiele für das SAPPRESS BUch SAP Document Reporting and Compliance – Projektplanung, Im-plementierung, Anwendung. Der Code wird mit abapGit verwaltet. Die Beispiele demonstrieren die Implementierung von BAdIs und Funktionsbausteinen im Kontext von SAP Document and Reporting Compliance (DRC).
 
 ## Inhalt
 
